@@ -1,34 +1,126 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛒 Cart - Shopping Cart Application
 
-## Getting Started
+A responsive shopping cart application built to demonstrate modern frontend development concepts, including product browsing, cart management, quantity updates, and dynamic price calculations.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
+* 🛍️ Browse available products
+* ➕ Add products to the shopping cart
+* ➖ Increase or decrease product quantities
+* 🗑️ Remove products from the cart
+* 💰 Calculate the cart total dynamically
+* 🔢 Display selected product quantities
+* 📱 Responsive user interface
+* ⚡ Interactive cart experience
+* 🔄 Real-time UI updates based on cart changes
+
+## 🛠️ Technologies Used
+
+* **React.js**
+* **JavaScript (ES6+)**
+* **HTML5**
+* **CSS3**
+* **React Hooks**
+* **npm**
+
+## 📂 Project Structure
+
+```text
+Cart/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   ├── App.js
+│   └── index.js
+├── package.json
+├── package-lock.json
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> The exact folder structure may vary depending on the current implementation.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## 💻 Getting Started
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### 1. Clone the repository
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+git clone https://github.com/hetarthi13/Cart.git
+```
 
-## Learn More
+### 2. Navigate to the project
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+cd Cart
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 3. Install dependencies
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+npm install
+```
 
-## Deploy on Vercel
+### 4. Start the development server
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm start
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The application should then be available at:
+
+```text
+http://localhost:3000
+```
+
+## 🧠 What I Practiced
+
+This project was created to strengthen my practical understanding of frontend development and React.js.
+
+Key concepts practiced:
+
+* React component-based architecture
+* Props and state management
+* React Hooks
+* Event handling
+* Array methods such as `map`, `filter`, and `reduce`
+* Conditional rendering
+* Dynamic calculations
+* Reusable UI components
+* Responsive design
+* Managing shopping-cart state
+
+## 📸 Screenshots
+
+Add screenshots of the application here:
+
+```md
+![Cart Application](./screenshots/cart.png)
+```
+
+## 🔮 Future Improvements
+
+Some possible improvements for this project include:
+
+* User authentication
+* Product search and filtering
+* Product categories
+* Persistent cart using localStorage
+* Backend API integration
+* MongoDB database integration
+* Checkout functionality
+* Payment gateway integration
+* Order history
+* Unit and integration testing
+
+## 👨‍💻 Author
+
+**Hetarthee Finaviya**
+
+MERN Stack Developer | React.js | Node.js | JavaScript
+
+* GitHub: https://github.com/hetarthi13
+
+## 📄 License
+
+This project is created for learning and portfolio purposes.
